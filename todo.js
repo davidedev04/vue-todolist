@@ -19,6 +19,11 @@ createApp({
                 }
             ]
         }
+    },
+    methods : {
+
+        
+
     }
 
 }).mount('.container')
