@@ -4,6 +4,9 @@ createApp({
 
     data() {
         return {
+            
+            quest: "",
+            
             todos: [
                 {
                     text: 'Fare i compiti',
@@ -20,9 +23,16 @@ createApp({
             ]
         }
     },
-    methods : {
+    methods: {
 
-        
+        addQuest(){
+            this.todos.unshift(this.quest);
+            this.quest = ""
+        },
+
+        removeQuest(element) {
+            this.todos.splice(element, 1)
+        }
 
     }
 

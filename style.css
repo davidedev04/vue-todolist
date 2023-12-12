@@ -10,7 +10,7 @@ body {
 
 .content_todo {
     width: 70%;
-    background-color: #00000010;
+    background-color: rgba(255, 255, 255, 0.335);
     padding: 20px;
 }
 
@@ -19,4 +19,8 @@ body {
     list-style-type: none;
     margin: 5px 0;
     border-bottom: 1px solid #0000004d;
+}
+
+.pointer_x:hover{
+    cursor: pointer;
 }
